@@ -1,0 +1,120 @@
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 450px;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.pdf-ico{
+    display: none;
+}
+
+.pdf-text{
+    display: none;
+}
+
+.pdf-ico2{
+    display: none;
+}
+
+.pdf-text2{
+    display: none;
+}
+
+
+@media screen and (max-width: 992px){
+    
+    .sintetico{
+        display: none;
+    }
+    
+    .ejercicios{
+        display: none;
+    }
+    
+    .pdf-ico{
+        display: block;
+        transform: translateY(5px);
+    }
+    
+    .pdf-text{
+        display: block;
+        transform: translateY(15px);
+    }
+    
+    .pdf-ico2{
+        display: block;
+        transform: translateY(5px);
+    }
+    
+    .pdf-text2{
+        display: block;
+        transform: translateY(15px);
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    
+    .sintetico{
+        display: none;
+    }
+    
+    .ejercicios{
+        display: none;
+    }
+    
+    .pdf-ico{
+        display: block;
+        transform: translateX(30px) translateY(10px);
+    }
+    
+    .pdf-text{
+        display: block;
+        transform: translateX(75px) translateY(15px);
+    }
+    
+    .pdf-ico2{
+        display: block;
+        transform: translateX(30px) translateY(10px);
+    }
+    
+    .pdf-text2{
+        display: block;
+        transform: translateX(75px) translateY(15px);
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    .sintetico{
+        display: none;
+    }
+    
+    .ejercicios{
+        display: none;
+    }
+    
+    .pdf-ico{
+        display: block;
+        transform: translateX(60px) translateY(10px);
+    }
+    
+    .pdf-text{
+        display: block;
+        transform: translateX(115px) translateY(15px);
+    }
+    
+    .pdf-ico2{
+        display: block;
+        transform: translateX(60px) translateY(10px);
+    }
+    
+    .pdf-text2{
+        display: block;
+        transform: translateX(115px) translateY(15px);
+    }
+}
